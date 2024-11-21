@@ -1,0 +1,89 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #acbcb4;
+    color: #333;
+}
+header {
+    background-color: #5b7473;
+    color: #9c9a7e;
+    padding: 20px;
+    text-align: center;
+}
+.header img {
+float: left;
+width: 120px;
+height: 100px;
+background: #555;
+}
+
+section {
+    padding: 20px;
+}
+h2 {
+    color: #0c0c0c;
+}
+.instructions {
+    color: #080808;
+    background-color: #5b7473;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.instructions img {
+    width: 300px;
+    height: 350px;
+    margin-top: 20px;
+}
+.instructions h3 {
+    margin-top: 0;
+}
+.location img {
+    width: auto;
+    height: 250px;
+    margin-top: 20px;
+    
+}
+.map {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    padding-bottom: 10px;
+}
+footer {
+    background-color: #5b7473;
+    color: #9c9a7e;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.key-lock img {
+    width: 300px;
+    height: 300px;
+    margin-top: 22px;
+}
+.Numbers{
+    padding-bottom: 50px;
+}
+.container {
+text-align: center;
+}
+
+.thumbnail {
+width: 150px;
+height: auto;
+transition: transform 0.3s ease; /* Smooth transition effect */
+cursor: pointer; /* Indicate that the image is clickable */
+}
+
+.enlarged {
+transform: scale(1.5); /* Enlarge image to 1.5x its size */
+z-index: 1000;
+position: relative;
+}
